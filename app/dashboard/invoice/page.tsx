@@ -1,7 +1,4 @@
-import React from 'react'
-
-export const page = () => {
-  return (
-    <div>Invoice Page</div>
-  )
+// Correct way
+export default function InvoicePage() {
+	return <div>Invoice Page</div>;
 }

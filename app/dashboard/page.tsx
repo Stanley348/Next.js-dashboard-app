@@ -1,3 +1,4 @@
-export default function Page(){
-  return <p>Dashboard</p>;
+// Correct way
+export default function DashboardPage() {
+  return <div>Dashboard Page</div>;
 }

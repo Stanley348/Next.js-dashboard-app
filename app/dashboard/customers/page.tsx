@@ -1,7 +1,4 @@
-import React from 'react'
-
-export const page = () => {
-  return (
-    <div>Customers Page</div>
-  )
+// Correct way
+export default function CustomersPage() {
+  return <div>Customers Dashboard</div>;
 }
